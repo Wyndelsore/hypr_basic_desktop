@@ -1,0 +1,50 @@
+font:
+  normal:
+    family: hermit
+    style: Regular
+
+  bold:
+    family: hermit
+    style: Bold
+
+  italic:
+    family: hermit
+    style: Italic
+
+  bold_italic:
+    family: hermit
+    style: Bold Italic
+
+  size: 11
+
+window:
+  opacity: 0.85
+  padding:
+    x: 10
+    y: 10
+# Colors (Supermiiu Custom)
+colors:
+  # Default colors
+  primary:
+    background: '#121212'
+    foreground: '#FFFFFF'
+  # Normal colors
+  normal:
+    black:   '#000000'
+    red:     '#fea9a9'
+    green:   '#a9feb6'
+    yellow:  '#fef3a9'
+    blue:    '#a9d2fe'
+    magenta: '#fba9fe'
+    cyan:    '#a9effe'
+    white:   '#ffffff'
+  # Bright colors
+  bright:
+    black:   '#000000'
+    red:     '#fea9a9'
+    green:   '#a9feb6'
+    yellow:  '#fef3a9'
+    blue:    '#a9d2fe'
+    magenta: '#fba9fe'
+    cyan:    '#a9effe'
+    white:   '#ffffff'
