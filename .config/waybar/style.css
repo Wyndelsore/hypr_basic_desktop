@@ -1,5 +1,5 @@
 * {
-	font-family: "YumeNikkiTitleSc";
+	font-family: "hermit";
 	font-size: 16.5px;
 /*	color: rgba(100, 100, 100, 1);	*/
 }
@@ -9,20 +9,12 @@ window#waybar {
 	background-color: rgba(8, 6, 5, 1);
 }
 
-#image{
-/*	background-color:rgba(43, 41, 40, 1); */
-}
 
 #window{
 	border-bottom: 1px solid #ffffff;
 	text-shadow: 2px 3px 0px #5a3c5a;
 }
 
-/*#battery{
-	background-color: rgba(40, 40, 39, 1);
-	padding-left: 8;
-	padding-right: 8
-}*/
 
 #user{
 /*	text-transform: lowercase;	*/
@@ -45,5 +37,3 @@ window#waybar {
   padding: 0 7px;
 /*  color: #6b4173; */
 }
-
-

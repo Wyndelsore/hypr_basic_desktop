@@ -12,7 +12,7 @@
 	"passthrough": true,
 	"spacing": 4,
 	"modules-left": ["hyprland/workspaces"],
-	"modules-right": ["custom/separator","user","image","custom/separator", "battery", "custom/separator","clock"],
+	"modules-right": ["custom/separator","user","custom/separator", "custom/separator","clock"],
 	"modules-center": ["hyprland/window"],
 
     "hyprland/window": {
@@ -21,7 +21,6 @@
 	    
 	"rewrite": {
         "(.*) — Mozilla Firefox": "Firefox",
-//	"(.*) — ArmCord": "Discord",
 	"": "Desktop",
 	},
 	},
@@ -43,28 +42,6 @@
     	"spacing": 10
 	},
 
-	"battery": {
-                "interval": 10,
-                "states": {
-                        "warning": 30,
-                        "critical": 15
-                },
-                "format-time": "{H}:{M:02}",
-                "format": "{icon} {capacity}%",
-//                "format-charging": "🠵 {capacity}%",
-//               "format-charging-full": "🠵 {capacity}%",
-                "format-full": "{icon} {capacity}%",
-                "format-alt": "{icon} {power}W",
-                "format-icons": [
-                        "▁",
-                        "▂",
-                        "▅",
-                        "▆",
-                        "▇"
-                ],
-                "tooltip": false
-        },
-
 	"user": {
         	"format": "{user}",
         	"height": 30,
@@ -75,20 +52,6 @@
 
 	"clock": {
 		"format":"{:%m-%d-%y | %R}",
-	        "on-click":"korganizer",
-		"calendar": {
-                    "mode"          : "year",
-                    "mode-mon-col"  : 3,
-                    "weeks-pos"     : "right",
-                    "on-scroll"     : 1,
-                    "on-click-right": "mode",
-                    "format": {
-                              "months":     "<span color='#ffead3'><b>{}</b></span>",
-                              "days":       "<span color='#ecc6d9'><b>{}</b></span>",
-                              "weeks":      "<span color='#99ffdd'><b>W{}</b></span>",
-                              "weekdays":   "<span color='#ffcc66'><b>{}</b></span>",
-                              "today":      "<span color='#ff6699'><b><u>{}</u></b></span>"
-                              }
                     },
         "actions":  {
                     "on-click-right": "mode",
@@ -100,9 +63,4 @@
 	
 },
 
-	"image": {
-		"exec":"~/nikki2.sh",
-		"size": 20,
-//		"on-click-right": "plasma-open-settings",
-	},
 }
